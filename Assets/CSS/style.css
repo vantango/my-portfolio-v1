@@ -1,5 +1,9 @@
 #logo-name {
-    color: aqua;
+    color:black;
+}
+
+.navbar-brand {
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .container {
