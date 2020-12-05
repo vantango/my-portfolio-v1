@@ -2,29 +2,20 @@
     color:black;
 }
 
+.wallpaper {
+    position: fixed;
+    height: auto;
+    width: fit-content;
+}
+
 .navbar-brand {
     font-family: 'Berkshire Swash', cursive;
     font-size: 25px ;
 }
 
-a.nav-link {
-    flex-direction: row;
+
+.navbar-nav {
     justify-content: flex-end;
-}
-
-#wallpaper {
-    position: fixed;
-    height: auto;
-    width: fit-content;
-    backdrop ;
-}
-
-.text-center {
-    text-emphasis: center;
-}
-
-.container {
-
 }
 
 .footer {
