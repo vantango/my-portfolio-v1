@@ -19,6 +19,12 @@
 }
 
 .footer {
-    bottom: 0;
-    position: absolute;
+    padding: 10px;
+    margin-bottom: 0;
+    background-color: grey;
+    position: relative;
+}
+
+.text-center text-muted {
+    text-align: center;
 }
