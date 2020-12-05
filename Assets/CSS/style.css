@@ -14,7 +14,8 @@
 }
 
 
-.navbar-nav {
+#navbarNav {
+    flex-direction: row;
     justify-content: flex-end;
 }
 
