@@ -13,7 +13,8 @@ body {
 .wallpaper {
     position: fixed;
     /* height: auto; */
-    width: 100%;    
+    width: 100%;
+    padding-top: 4%;    
 }
 
 .navbar-brand {
@@ -28,6 +29,7 @@ body {
 
 .container {
     /* max-width: 50%; */
+    margin: 10px;
 }
 
 .jumbotron {
@@ -48,6 +50,14 @@ input {
     width: auto;
     float: left;
     margin-right: 10px;
+}
+
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .footer {
