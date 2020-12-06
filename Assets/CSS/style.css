@@ -26,9 +26,20 @@ body {
     justify-content: flex-end;
 }
 
+.container {
+    /* max-width: 50%; */
+}
+
 .jumbotron {
-    padding: auto;
+    /* padding: auto; */
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
+}
+
+input {
+    width: max-content;
+    /* width: fit-content; */
 }
 
 .img-responsive {
