@@ -31,6 +31,10 @@ body {
     position: relative;
 }
 
+.input  {
+    flex
+}
+
 .img-responsive {
     max-width: 50%;
     height: 50%;
