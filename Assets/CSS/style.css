@@ -72,6 +72,7 @@ input {
 
 .btn {
     background-color: darkred;
+    border-color: black;
 }
 
 .footer {
