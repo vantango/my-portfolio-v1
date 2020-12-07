@@ -53,24 +53,21 @@
                     </h1>
                     <div class="col-8">
                         <hr class="my-4">
-                        <p>
-                            Name
-                        </p>
-                        <p>
-                            <input type="text form-control-inline" placeholder="Name">
-                        </p>
-                        <p>
-                            Email
-                        </p>
-                        <p>
-                            <input type="text" placeholder="Email">
-                        </p>
-                        <p>
-                            Message
-                        </p>
-                        <p>
-                            <input type="text" placeholder="Message">
-                        </p>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="usr">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" placeholder="Email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Send A Message</label>
+                                <textarea class="form-control" rows="5" placeholder="How can I help you?"
+                                    id="comment"></textarea>
+                            </div>
+                        </form>
                     </div>
                     <br>
                     <br>

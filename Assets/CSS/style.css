@@ -34,10 +34,6 @@ body {
     margin-right: auto;
 }
 
-.flex-container {
-
-}
-
 .jumbotron {
     /* padding: auto; */
     padding-top: 10px;
@@ -71,8 +67,8 @@ input {
     width: auto;
     padding: 0;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
-
 
 .btn {
     background-color: darkred;
