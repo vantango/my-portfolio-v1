@@ -54,6 +54,10 @@ input {
     /* width: fit-content; */
 }
 
+.socials {
+    padding: 20px;
+}
+
 .img-responsive {
     max-width: 50%;
     height: auto;
