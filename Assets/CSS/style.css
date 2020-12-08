@@ -69,7 +69,7 @@ input {
 }
 
 .btn {
-    background-color: darkred;
+    background-color:rgb(73, 2, 2);
     border-color: black;
 }
 
@@ -77,6 +77,8 @@ input {
     width:100%;
     bottom: 0;
     background-color: rgb(53, 53, 53);
+    border-style: solid;
+    border-top-color: rgb(73, 2, 2);
     position: fixed;
 }
 
