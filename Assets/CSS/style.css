@@ -4,15 +4,12 @@
 
 body {
     background-image: url("https://wallpapercave.com/wp/wp4047726.jpg");
-    /* background-size: contain; */
     background-repeat: no-repeat;
-    /* background-position: center; */
     min-height: 100vh;
 }
 
 .wallpaper {
     position: fixed;
-    /* height: auto; */
     width: 100%;
     padding-top: 4%;    
 }
@@ -29,14 +26,11 @@ body {
 }
 
 .container {
-    /* max-width: 50%; */
-    /* background-color: white; */
     margin: 10px;
     margin-right: auto;
 }
 
 .jumbotron {
-    /* padding: auto; */
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
@@ -46,12 +40,10 @@ body {
     font-family: 'Cinzel Decorative', cursive;
     font-size: xx-large;
     font-weight: 500;
-    /* margin-bottom: 10px; */
 }
 
 input {
     width: max-content;
-    /* width: fit-content; */
 }
 
 .socials {
