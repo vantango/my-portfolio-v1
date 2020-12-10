@@ -1,35 +1,43 @@
+/* applies color style to logo name */
 #logo-name {
     color:black;
 }
 
+ /* adds background url and makes it fit to page */
 body {
     background-image: url("https://wallpapercave.com/wp/wp4047726.jpg");
     background-repeat: no-repeat;
     min-height: 100vh;
 }
 
+ /* sets wallpaper position and sizing */
 .wallpaper {
     position: fixed;
     width: 100%;
     padding-top: 4%;    
 }
 
+
+/* adds google font styling to logo name */
 .navbar-brand {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 700;
     font-size: 25px ;
 }
 
+/* makes navbar stay relative to screen resolution */
 #navbarNav {
     flex-direction: row;
     justify-content: flex-end;
 }
 
+/* applies margin parameters for container class */
 .container {
     margin: 10px;
     margin-right: auto;
 }
 
+/* applies styling elements and gives a relative position */
 .jumbotron {
     margin-top: 30px;
     padding-top: 10px;
@@ -37,20 +45,24 @@ body {
     position: relative;
 }
 
+/* adds google font styling to jumbotron header for each page */
 .display-4 {
     font-family: 'Cinzel Decorative', cursive;
     font-size: xx-large;
     font-weight: 500;
 }
 
+/* sets input box width */
 input {
     width: max-content;
 }
 
+/* adds padding to the socials links */
 .socials {
     padding: 20px;
 }
 
+/* sets styling to about me picture and makes it responsive */
 .img-responsive {
     max-width: 50%;
     height: auto;
@@ -59,6 +71,7 @@ input {
     margin-right: 10px;
 }
 
+/* adds styling to thumbnail images and makes them responsive */
 .img-thumbnail {
     max-width: 100%;
     height: auto;
@@ -68,11 +81,13 @@ input {
     flex-wrap: wrap;
 }
 
+/* adds color styling to submit button */
 .btn {
     background-color:rgb(73, 2, 2);
     border-color: black;
 }
 
+/* applies styling properties to footer and fixes it's position*/
 .footer {
     width:100%;
     bottom: 0;
@@ -82,6 +97,7 @@ input {
     position: fixed;
 }
 
+/* aligns copyright text to center */
 .text-center text-muted {
     text-align: center;
 }
