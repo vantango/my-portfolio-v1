@@ -6,9 +6,9 @@ I was tasked with building a three page portfolio that included a collapsible na
 ### Table of Contents
 
 #### Technologies Used
-HTML
-CSS
-Bootstrap
+* HTML
+* CSS
+* Bootstrap
 
 #### Processes
 * Created HTML framework.
