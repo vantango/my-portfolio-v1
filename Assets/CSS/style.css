@@ -1,20 +1,21 @@
 /* applies color style to logo name */
 #logo-name {
-    color:black;
+    color:white;
 }
 
- /* adds background url and makes it fit to page */
+ /* adds background url and makes it fit to page
 body {
-    background-image: url("https://wallpapercave.com/wp/wp4047726.jpg");
-    background-repeat: no-repeat;
-    min-height: 100vh;
-}
+    
+} */
 
  /* sets wallpaper position and sizing */
 .wallpaper {
     position: fixed;
     width: 100%;
-    padding-top: 4%;    
+    background-size: 100%;  
+    background-image: url("https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-repeat: no-repeat;
+    min-height: 100vh;  
 }
 
 
@@ -23,6 +24,16 @@ body {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 700;
     font-size: 25px ;
+}
+
+.nav-link {
+color: white;
+}
+
+.navbar {
+    background-color:rgb(36, 36, 36);
+    border-style: solid;
+    border-bottom-color:rgb(124, 155, 133);
 }
 
 /* makes navbar stay relative to screen resolution */
@@ -34,7 +45,7 @@ body {
 /* applies margin parameters for container class */
 .container {
     margin: 10px;
-    margin-right: auto;
+    /* margin-right: auto; */
 }
 
 /* applies styling elements and gives a relative position */
@@ -42,7 +53,9 @@ body {
     margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    position: relative;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
 }
 
 /* adds google font styling to jumbotron header for each page */
@@ -83,7 +96,7 @@ input {
 
 /* adds color styling to submit button */
 .btn {
-    background-color:rgb(73, 2, 2);
+    background-color:rgb(45, 48, 54);
     border-color: black;
 }
 
@@ -91,9 +104,9 @@ input {
 .footer {
     width:100%;
     bottom: 0;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(36, 36, 36);
     border-style: solid;
-    border-top-color: rgb(73, 2, 2);
+    border-top-color:rgb(124, 155, 133);
     position: fixed;
 }
 
