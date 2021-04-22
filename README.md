@@ -1,4 +1,4 @@
-# My First Portfolio: CSS and Bootstrap Responsive
+# My First Portfolio: CSS and Bootstrap Responsive (PLEASE SEE CURRENT PORTFOLIO: www.alekskm.com)
 
 ## Project Description
 I was tasked with building a three page portfolio that included a collapsible nav bar, a responsive layout, and responsive images.
